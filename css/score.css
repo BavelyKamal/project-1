@@ -1,0 +1,89 @@
+.score {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/score.png);
+    height:350px;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.over{
+    background-color: rgba(0, 0, 0, 0.7);
+    height:350px;
+}
+.scoreitem{ 
+    padding-top: 130px;
+}
+.scoitem {
+    width: 25%;
+    float: left;
+    text-align:center;
+}
+.scoitem .icon{
+    color:#6195ff;
+    margin-bottom: 15px;
+}
+.scoitem-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+.scoitem-text {
+    color: #fff;
+}
+
+
+/*......................................................................................... */
+.owner {
+    position: relative;
+    width: 100%;
+    background-image: url(../img/place.png);
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.owncont{
+    padding-top: 70px;
+    margin-left: 60px;
+}
+.owner-item {
+    float: left;
+    width: 45%; 
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-bottom: 80px; 
+}
+
+.ownership, .ownerdesc {
+    color: #fff;
+}
+
+.ownership {
+    padding:10px 0px 10px 120px;
+    position:relative;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.lol {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 20px; 
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+}
+
+.ownerdesc {
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-left: 20px; 
+    font-size: 14px;
+}
+.ownership span{
+    color: #1b66d5;
+}
